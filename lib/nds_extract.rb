@@ -15,6 +15,7 @@ def directors_totals(nds)
     result[director_name] = gross_total
     director_index += 1
   end
+  return result
   nil
 end
 
